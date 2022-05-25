@@ -1,0 +1,78 @@
+body{
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+}
+main{
+    background-color: #ebebeb;
+}
+
+p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titular{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titular2{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.itemsuperior{
+    display: inline;
+}
+
+.precio{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0px;
+}
+
+.descripcion{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuento{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer{
+    background-color: #ffffff;
+}
+.footer{
+    text-align: center;
+}
+
+/**
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
