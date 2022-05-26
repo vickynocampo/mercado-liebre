@@ -1,34 +1,41 @@
-body{
+body {
     background-color: #ebebeb;
-}
-
-header{
-    background-color: #EAC926;
-}
-main{
-    background-color: #ebebeb;
-}
-
-p{
-    font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
 
-.titular{
+header {
+    background-color: #EAC926;
+}
+
+main {
+    background-color: #ebebeb;
+    color:  #666;
+}
+
+#cuotas {
+    align-items:center;
+}
+
+p {
+    font-size: 12px;
+   
+}
+
+.titular {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
 
-.titular2{
+.titular2 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
-.itemsuperior{
+.itemsuperior {
     display: inline;
 }
 
-.precio{
+.precio {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,22 +44,43 @@ ul {
     padding: 0px;
 }
 
-.descripcion{
+.descripcion {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
-.descuento{
+.descuento {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
-
-footer{
+footer {
     background-color: #ffffff;
+    color:  #666666;
 }
-.footer{
+
+.footer {
     text-align: center;
+}
+
+.icono {
+    color:  #1259c3;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container-bm {
+    text-align: center;
+}
+
+.footer i {
+    color: #1259c3;
+    }
+
+div button {
+     margin: 0 auto;
+     color:  #ffffff;
+     background-color: #1259c3;
 }
 
 /**
@@ -75,4 +103,3 @@ font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-
