@@ -18,7 +18,12 @@ main {
 
 p {
     font-size: 12px;
-   
+}
+
+li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .titular {
@@ -29,6 +34,8 @@ p {
 .titular2 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0;
 }
 
 .itemsuperior {
@@ -69,6 +76,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.footer p {
+    margin: 0 auto;
+}
+
 .container-bm {
     text-align: center;
 }
@@ -81,6 +92,9 @@ div button {
      margin: 0 auto;
      color:  #ffffff;
      background-color: #1259c3;
+     border-radius: 5px;
+     border: #1259c3;
+     padding: 10px;
 }
 
 /**
