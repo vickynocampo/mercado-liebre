@@ -31,6 +31,12 @@ li a {
     font-family: 'Roboto', sans-serif;
 }
 
+#banner {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
 .titular2 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -76,6 +82,10 @@ footer {
     margin-bottom: 10px;
 }
 
+#copyright {
+    text-align: center;
+}
+
 .footer p {
     margin: 0 auto;
 }
@@ -89,7 +99,7 @@ footer {
     }
 
 div button {
-     margin: 0 auto;
+     margin: 15px auto;
      color:  #ffffff;
      background-color: #1259c3;
      border-radius: 5px;
