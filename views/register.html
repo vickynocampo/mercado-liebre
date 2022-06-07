@@ -57,6 +57,7 @@
                 <h2>Registro</h2>
                 <input type="text" name="nombre" placeholder="Nombre y Apellido" class="campo">
                 <input type="text" name="apellido" placeholder="Nombre de usuari@" class="campo">
+                <input type="text" name="email" placeholder="E-mail" class="campo">
                 <h2>Fecha de Nacimiento</h2>
                 <input type="date" name="fecha" class="campo">
                 <input type="text" name="domicilio" placeholder="Domicilio" class="campo">
@@ -70,16 +71,27 @@
                     </div>
             <div class="intereses">
                 <h2>Intereses</h2>
-                <input type="checkbox" name="intereses" value="electro">
-                <label>Electro</label>
-                <input type="checkbox" name="intereses" value="moda">
-                <label>Moda</label>
-                <input type="checkbox" name="intereses" value="hogar">
-                <label>Hogar</label>
-                <input type="checkbox" name="intereses" value="jugueteria">
-                <label>Jugueteria</label>
-                <input type="checkbox" name="intereses" value="vidaSana">
-                <label>Vida Sana</label>
+                <div class="check">
+                    <input type="checkbox" name="intereses" value="electro">
+                    <label>Electro</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="intereses" value="moda">
+                    <label>Moda</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="intereses" value="hogar">
+                    <label>Hogar</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="intereses" value="jugueteria">
+                    <label>Jugueteria</label>
+                </div>   
+                <div class="check">
+                    <input type="checkbox" name="intereses" value="vidaSana">
+                    <label>Vida Sana</label>
+                </div>
+                </div>
             </div>
             <h2>Foto de Perfil</h2><input type="file" accept=".jpg, .png">
             <input type="text" name="contraseña" placeholder="Contraseña" class="campo">
