@@ -5,7 +5,7 @@
 
 .campo {
     border: solid 1px #ebebeb;
-    border: 4%;
+    border-radius: 5%;
     display: block;
     width: 100%;
     margin: 8px 0;
