@@ -1,0 +1,32 @@
+.form {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    width: 40%;
+}
+
+.campo {
+    border: solid 1px #ebebeb;
+    border-radius: 4px;
+}

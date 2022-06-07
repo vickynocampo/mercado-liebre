@@ -1,0 +1,16 @@
+.login {
+     width: 50%;
+     margin: auto;
+}
+
+.campo {
+    border: solid 1px #ebebeb;
+    border: 4%;
+    display: block;
+    width: 100%;
+}
+
+.boton {
+    width: 100%;
+}
+

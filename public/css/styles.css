@@ -1,19 +1,63 @@
+html {
+    font-size: 10px;
+}
+
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;    
-    font-size: 12px;
-}
-
-/*p {
-    font-size: 12px;
-}*/
+    min-width: 300px;
+    max-width: 1200px;
+ }
 
 header {
     background-color: #EAC926;
+    padding: 15px;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
 }
 
 .search {
-    margin-left: 10px;    
+    display: flex;
+}
+
+.buscar {
+    width: 100%;
+}
+
+.logo, .search {
+    width: 50%;
+}
+
+.mano {
+    margin-right: 5px;
+}
+
+#cuota {
+    text-align: center;
+    margin: 10px;
+}
+
+.main-nav {
+    display: none;
+}
+
+ul {
+    margin-bottom: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-bm {
+    text-align: center;
 }
 
 div button {
@@ -25,33 +69,9 @@ div button {
     padding: 10px;
 }
 
-#cuota {
-    text-align: center;
-    margin: 10px;
-}
-
-ul {
-    padding: 0px;
-}
-
-li a {
-    font-size: 12px;
-    text-decoration: none;
-    color: #000000;
-}
-
 #banner {
     margin: 0;
     padding: 0;
-    background-color: #ebebeb;
-}
-
-.container-bm {
-    text-align: center;
-}
-
-.itemsuperior {
-    display: inline;
 }
 
 main {
@@ -62,16 +82,17 @@ main {
 }
 
 .titular {
-    font-size: 24px;
+    font-size: 2.2rem;
     font-family: 'Roboto', sans-serif;
 }
 
-.producto img {
-     margin: 0px;
+.producto {
+    margin-bottom: 15px;
 }
 
-.producto {
-    margin: 10px 0px;
+.producto img {
+    margin: 0px;
+    display: flex;
 }
 
 .detalleprod {
@@ -80,30 +101,32 @@ main {
      padding: 15px;
 }
 
-.container-shipp .cs {
-   
-    color: #39b54a;
-    border: solid 1px #39b54a;
-    background-color: white;
-    border-radius: 50%;
-    margin: 0px;
+.camion {
+   color: #39b54a;
+   font-size: 1.2rem;
+   padding: 3px;
+   width: 20px;
+   height: 20px;
+   border: 1px solid #39b54a;
+   border-radius: 50%;
 }
 
 .precio {
-    font-size: 18px;
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-}
+ }
 
 .descuento {
-    font-size: 16px;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     color: #39b54a;
     margin: 0px;
+    width: 70%;
 }
 
 .descripcion {
-    font-size: 16px;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0px;
 }
@@ -117,11 +140,6 @@ footer {
     text-align: center;
 }
 
-.footer p {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .icono {
     color:  #1259c3;
     padding-top: 20px;
@@ -129,45 +147,97 @@ footer {
 }
 
 .titular2 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0;
+}
+
+.footer p {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #copyright {
     text-align: center;
 }
 
-@media (max-width:360px) {
-
-.descripcion    
-    {
-    display: none ;
-    }
-
-ul {
-    display: none;
-    }
-}
-
 @media (min-width:361px) {
 
-.container-bm {
+    .container-bm {
         display: none ;
     }
 
-    .container-bm {
-            display: none ;
+    .main-header {
+        display: flex ;
+        justify-content: space-between;
+    }
+
+    #cuota {
+        text-align: right;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .listauno {
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .listados {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    ul li {
+        margin: 0 10px;; 
+    }
+
+    .contenedor-productos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7%;
+        justify-content: center;
     }
 
     .producto {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
     }
 
-    /*footer {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }*/
+    .detalleprod {
+        position: relative;
+    }
+    .pyd {
+        display: flex;  
+        justify-content: center;
+        gap: 4%;
+        width: 100%;
+   }
+
+    .camion {
+        position: absolute;
+        top: -15px;
+        right: 10px;
+    }
+}
+
+@media (min-width:769px) {
+
+    .contenedor-productos {
+        display: flex;
+        gap: 4%;  
+        justify-content: center;
+    }
+
+    .producto {
+        width: 22%;
+    }
 }
 
 /**
@@ -192,4 +262,15 @@ font-family: 'Roboto', sans-serif;
 
 ● Navegación en tablets (ancho mínimo 361 px)
 ● Navegación en desktop (ancho mínimo 769 px)
+
+html{
+  box-sizing: border-box;
+  font-size: 10px;
+}
+*,
+*::after,
+*::before {
+ box-sizing: inherit;
+}
+
 */
