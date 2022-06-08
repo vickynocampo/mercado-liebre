@@ -12,6 +12,7 @@ body {
 header {
     background-color: #EAC926;
     padding: 15px;
+
 }
 
 .logo-search {
@@ -103,8 +104,8 @@ main {
 
 .camion {
    color: #39b54a;
-   font-size: 1.2rem;
-   padding: 3px;
+   font-size: 1.1rem;
+   padding: 1px;
    width: 20px;
    height: 20px;
    border: 1px solid #39b54a;

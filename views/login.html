@@ -19,10 +19,10 @@
         <section class="main-header">
             <section class="logo-search">
                 <img class="logo" src="/img/logo-mercado-liebre.svg" alt="Logo ML" height="80px" width="200px">
-                <section class="search">
-                <input type="search" class="buscar">
-                <button><i class="fas fa-search"></i></button>
-                </section>
+                <form class="search" action="#" method="GET">
+                    <input type="search" class="buscar" name="terminoBuscado">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
             </section>
             <section id="cuota">
                 <i class="mano fas fa-hand-holding-usd"></i><p id="cuotas" style="display:inline;">Comprá en cuotas y sin tarjeta de crédito</p>      
@@ -53,10 +53,10 @@
         <img src="/img/img-home-banner.jpg" alt="banner" height="100%" width="100%">
     </div>  
     <main>
-     <form action="/login.html" method="POST" class="login">
+     <form action="/login." method="POST" class="login">
             <h2>Login</h2>
-            <input type="text" name="nombre" placeholder="Nombre de Usuario" class="campo">
-            <input type="text" name="contraseña" placeholder="Elegi tu Contraseña" class="campo">
+            <input type="text" name="nombre" placeholder="Nombre de Usuario" required class="campo">
+            <input type="text" name="contraseña" placeholder="Elegi tu Contraseña" required minlength="8" class="campo">
             <div class="botones">          
             <button type="submit" class="boton">Enviar</button>
             </div>
