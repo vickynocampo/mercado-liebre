@@ -13,4 +13,6 @@ app.get("/login",(req, res)=>{res.sendFile(path.resolve(__dirname, "./views/logi
 app.post("/login",(req, res)=>{res.redirect("/")});
 app.post("/register",(req, res)=>{res.redirect("/")});
 
-app.listen(3030,()=>{console.log("Servidor corriendo en puerto 3030");})
+//app.listen(3000,()=>{console.log("Servidor corriendo en puerto 3000");})//
+
+app.listen(process.env.PORT || 3000 ,()=>{console.log("Servidor corriendo en puerto 3000");})

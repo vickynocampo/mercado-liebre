@@ -126,8 +126,8 @@ main {
 
 .camion {
    color: #39b54a;
-   font-size: 1.1rem;
-   padding: 1px;
+   font-size: 1.2em;
+   padding: 0;
    width: 20px;
    height: 20px;
    border: 1px solid #39b54a;
@@ -170,14 +170,14 @@ footer {
 }
 
 .titular2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0;
 }
 
 .footer p {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -189,7 +189,7 @@ footer {
 /*Login.html*/
 .login {
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .campo {
@@ -249,7 +249,6 @@ footer {
 .boton {
     width: 40%;
 }
-
 
 @media (min-width:361px) {
 
