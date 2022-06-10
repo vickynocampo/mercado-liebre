@@ -151,9 +151,6 @@ main {
 footer {
     background-color: #ffffff;
     color:  #666666;
-}
-
-.footer {
     text-align: center;
 }
 
@@ -172,7 +169,7 @@ footer {
 
 .footer p {
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #copyright {
@@ -183,7 +180,8 @@ footer {
 /*Login.html*/
 .login {
     width: 80%;
-    margin: 50px auto;
+    margin: auto;
+    margin-bottom: 10%;
 }
 
 .campo {
